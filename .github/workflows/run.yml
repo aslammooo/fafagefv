@@ -1,8 +1,8 @@
 name: Keep Running
-a
-on:a
+
+on:
   workflow_dispatch:
-a
+
 concurrency:
   group: keep-alive-group
   cancel-in-progress: false
